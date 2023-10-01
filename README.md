@@ -38,15 +38,10 @@ GET http://localhost:8080/find/1
 Aqui estão os comandos SQL necessários para criar o banco de dados `rtSoft` e a tabela `usuario` em um ambiente SQL Server:
 
 ```sql
--- 🔵 Crie o Banco de Dados rtSoft
 CREATE DATABASE rtSoft;
 GO
-
--- 🔵 Use o Banco de Dados rtSoft
 USE rtSoft;
 GO
-
--- 🔵 Crie a Tabela usuario
 CREATE TABLE usuario (
     id INT PRIMARY KEY IDENTITY(1,1),
     nome VARCHAR(255) NOT NULL,
