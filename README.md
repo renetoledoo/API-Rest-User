@@ -15,13 +15,6 @@ O `GreetingsController` é responsável por fornecer uma API para buscar um usu�
 
 - `GET /find/{id}`: Retorna um usuário pelo ID.
 
-### Pré-requisitos
-
-- Java 11 ou superior instalado
-- Maven
-- SQL Server 2019 ou superior
-- Uma IDE de sua escolha (Eclipse, IntelliJ, etc.)
-
 ### Uso
 
 Para utilizar este controller, você pode fazer uma solicitação GET para o endpoint `/find/{id}` com o ID do usuário desejado.
