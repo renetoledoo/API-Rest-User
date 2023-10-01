@@ -1,0 +1,4 @@
+br\com\rtsoft\sysoft\Application.class
+br\com\rtsoft\sysoft\model\Usuario.class
+br\com\rtsoft\sysoft\repository\UsuarioRepository.class
+br\com\rtsoft\sysoft\controllers\GreetingsController.class
