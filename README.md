@@ -30,3 +30,19 @@ Exemplo de uso:
 
 ```http
 GET http://localhost:8080/find/1
+```
+
+### Banco de Dados
+# Criando o Banco de Dados `rtSoft` e a Tabela `usuario` 🛠️
+
+Aqui estão os comandos SQL necessários para criar o banco de dados `rtSoft` e a tabela `usuario` em um ambiente SQL Server:
+🔵 Crie o Banco de Dados rtSof
+CREATE DATABASE rtSoft;
+GO
+USE rtSoft;
+GO
+CREATE TABLE usuario (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL
+);
